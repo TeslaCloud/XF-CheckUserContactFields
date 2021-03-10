@@ -21,7 +21,7 @@ class Forum extends XFCP_Forum
         {
             if (in_array($params->node_id, XF::options()->tc_cucf_include_forums))
             {
-                if (\XF::visitor()->hasPermission('forum', 'tcCucfBypass'))
+                if (XF::visitor()->hasPermission('forum', 'tcCucfBypass'))
                 {
                     return $reply;
                 }
