@@ -1,0 +1,20 @@
+<xf:css src="tc_cucf.less" />
+<div class="block">
+	<div class="block-container">
+		<div class="block-body">
+			<div class="block block--warning">
+				{{ phrase('tc_cucf_create_thread_explanation') }}
+			</div>
+			<xf:form action="{{ link('account/account-details') }}" ajax="true" class="block" data-force-flash-message="true">
+				<xf:if is="$xf.visitor.canEditProfile()">
+					<xf:if contentcheck="true">
+						<xf:contentcheck>
+							<xf:macro template="custom_fields_macros" name="custom_fields_edit" arg-type="users" arg-group="contact" arg-set="{$xf.visitor.Profile.custom_fields}" />
+						</xf:contentcheck>
+					</xf:if>
+					<xf:submitrow icon="save" sticky="true" />
+				</xf:if>
+			</xf:form>
+		</div>
+	</div>
+</div>

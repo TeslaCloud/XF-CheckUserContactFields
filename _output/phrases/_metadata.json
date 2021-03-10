@@ -1,0 +1,50 @@
+{
+    "option.tc_cucf_contactFields.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "e54b38290c8bdd95e8bc10412c9cc096"
+    },
+    "option.tc_cucf_include_forums.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "3a717a2fc6a4357e8c2f5738ffe6a95a"
+    },
+    "option_explain.tc_cucf_contactFields.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "option_explain.tc_cucf_include_forums.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "option_group.tcCUCF.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "4543201e707cae8fa21586188e6427a1"
+    },
+    "option_group_description.tcCUCF.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "d41d8cd98f00b204e9800998ecf8427e"
+    },
+    "permission.forum_tcCucfBypass.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "a13f64851c178469df614d6169adb741"
+    },
+    "tc_cucf_create_thread_explanation.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "a1f862ebd50c34ef5a79a7ff4bb183a6"
+    }
+}

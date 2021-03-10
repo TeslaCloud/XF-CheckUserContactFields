@@ -1,0 +1,15 @@
+{
+    "edit_format": "callback",
+    "edit_format_params": "TC\\CUCF\\Option\\ContactFields::renderOption",
+    "data_type": "array",
+    "sub_options": [
+        "*"
+    ],
+    "validation_class": "",
+    "validation_method": "",
+    "advanced": false,
+    "default_value": "[]",
+    "relations": {
+        "tcCUCF": 2
+    }
+}

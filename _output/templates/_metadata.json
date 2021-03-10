@@ -1,0 +1,17 @@
+{
+    "admin/option_template_tc_cucf_contactFields.html": {
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "730f76a475d62ca4f5e37e3877a49a95"
+    },
+    "public/tc_cucf.less": {
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "1fcb20b9b94c124202d0d2fb63393ba9"
+    },
+    "public/tc_cucf_view.html": {
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "a04fa511d430338f613170c6ae0a60fa"
+    }
+}

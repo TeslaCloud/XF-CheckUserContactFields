@@ -1,0 +1,14 @@
+<xf:formrow rowtype="input"
+	label="{$option.title}"
+	hint="{$hintHtml}"
+	explain="{$explainHtml}"
+	html="{$listedHtml}">
+
+	<ul class="listPlain inputGroup-container">		
+		<xf:checkbox name="{$inputName}" value="{$option.option_value}">
+			<xf:foreach loop="$fields" value="$field" key="$key">
+				<xf:option value="{$key}">{$field.title}</xf:option>
+			</xf:foreach>
+		</xf:checkbox>
+	</ul>
+</xf:formrow>
