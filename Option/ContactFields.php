@@ -19,7 +19,7 @@ class ContactFields extends AbstractOption
      */
     public static function renderOption(Option $option, array $htmlParams) : string
     {
-        return self::getTemplate('admin:tc_ruf_option_template_requiredFields', $option, $htmlParams, [
+        return self::getTemplate('admin:option_template_tc_cucf_contactFields', $option, $htmlParams, [
             'fields' => XF::app()->getCustomFields('users', 'contact')->getFieldDefinitions()
         ]);
     }
