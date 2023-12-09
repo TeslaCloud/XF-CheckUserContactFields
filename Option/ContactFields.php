@@ -13,14 +13,14 @@ use XF\Option\AbstractOption;
 
 class ContactFields extends AbstractOption
 {
-    /**
-     * @param Option $option
-     * @param array $htmlParams
-     */
-    public static function renderOption(Option $option, array $htmlParams) : string
-    {
-        return self::getTemplate('admin:option_template_tc_cucf_contactFields', $option, $htmlParams, [
-            'fields' => XF::app()->getCustomFields('users', 'contact')->getFieldDefinitions()
-        ]);
-    }
+	/**
+	 * @param Option $option
+	 * @param array $htmlParams
+	 */
+	public static function renderOption(Option $option, array $htmlParams) : string
+	{
+		return self::getTemplate('admin:option_template_tc_cucf_contactFields', $option, $htmlParams, [
+			'fields' => XF::app()->getCustomFields('users', 'contact')->getFieldDefinitions()
+		]);
+	}
 }
