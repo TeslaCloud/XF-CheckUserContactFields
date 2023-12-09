@@ -1,15 +1,17 @@
 {
     "legacy_addon_id": "",
     "title": "[TC] Check User Contact Fields",
-    "description": "Checking contact fields when user creating thread",
+    "description": "Checking contact fields when user creating thread.",
     "version_id": 1000070,
     "version_string": "1.0.0",
-    "dev": "TeslaCloud Studios LLC",
+    "dev": "TeslaCloud Studios",
     "dev_url": "https://teslacloud.net",
     "faq_url": "",
     "support_url": "https://teslacloud.net/forums/xf-addon_cucf/",
     "extra_urls": {
-        "inzanty": "https://teslacloud.net/members/inzanty.213/"
+        "inzanty": "https://teslacloud.net/members/inzanty.213/",
+        "%DONATE_TITLE%": "https://teslacloud.net/donate/",
+        "%FRAUD_TITLE%": "https://teslacloud.net/fraud/"
     },
     "require": {
         "XF": [
